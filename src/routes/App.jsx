@@ -8,7 +8,7 @@ import SendEmail from '@pages/SendEmail';
 import NewPassword from '@pages/NewPassword';
 import MyAccount from '@pages/MyAccount';
 import CreateAccount from '@pages/CreateAccount';
-import Checkout from '@pages/Checkout';
+import Checkout from '@pages/checkout';
 import Orders from '@pages/Orders';
 import NotFound from '@pages/NotFound';
 import AppContext from '../context/AppContext';
