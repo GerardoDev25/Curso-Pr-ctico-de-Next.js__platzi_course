@@ -1,14 +1,28 @@
+// {
+//   "compilerOptions": {
+//     "baseUrl": "src",
+//     "paths": {
+//       "@pages/*": ["pages/*"],
+//       "@components/*": ["components/*"],
+//       "@containers/*": ["containers/*"],
+//       "@context/*": ["context/*"],
+//       "@styles/*": ["styles/*"],
+//       "@icons/*": ["assets/icons/*"],
+//       "@logos*": ["assets/logos*/"]
+//     }
+//   }
+// }
 {
   "compilerOptions": {
-    "baseUrl": "src3",
+    "baseUrl": "src",
     "paths": {
-      "@pages": ["pages/"],
-      "@components": ["components/"],
-      "@containers": ["containers/"],
-      "@context": ["context/"],
-      "@styles": ["styles/"],
-      "@icons": ["assets/icons/"],
-      "@logos": ["assets/logos/"]
+      "@pages/*": ["pages/*"],
+      "@components/*": ["components/*"],
+      "@containers/*": ["containers/*"],
+      "@icons/*": ["assets/icons/*"],
+      "@logos/*": ["assets/logos/*"],
+      "@context/*": ["context/*"],
+      "@styles/*": ["styles/*"]
     }
   }
 }
