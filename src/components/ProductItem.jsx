@@ -15,7 +15,7 @@ const ProductItem = ({ product }) => {
     <div className={style.ProductItem}>
       {product.images[0] && (
         <Image
-          // loader={() => product.images[0]}
+          loader={() => product.images[0]}
           src={product.images[0]}
           alt={product.title}
           width='100%'
